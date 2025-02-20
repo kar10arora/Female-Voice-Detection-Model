@@ -1,0 +1,96 @@
+Internship Report: Emotion Detection Through Voice
+
+1. Introduction
+The objective of this internship project was to develop a machine learning model for emotion detection through voice. The model is designed to process recorded and uploaded voice notes, identify emotions, and ensure that the system works exclusively for female voices. The project required the creation of a GUI to facilitate user interaction.
+
+2. Background
+Emotion detection through voice is a significant aspect of affective computing. It is widely used in customer service, mental health applications, and human-computer interaction. By analyzing voice modulation, pitch, and intensity, machine learning models can classify emotions such as happiness, sadness, anger, and neutrality.
+
+3. Learning Objectives
+
+To understand and implement feature extraction techniques for speech signals.
+
+To train a machine learning model capable of classifying emotions.
+
+To develop a GUI that allows users to record or upload voice files.
+
+To ensure the system validates the gender of the speaker before classification.
+
+4. Activities and Tasks
+The following tasks were performed during the internship:
+
+Data Collection and Preprocessing
+
+Used the RAVDESS and TESS datasets for training.
+
+Extracted features such as MFCCs (Mel-frequency cepstral coefficients), chroma, and spectral contrast.
+
+Model Training
+
+Used deep learning techniques with LSTM (Long Short-Term Memory) networks.
+
+Trained the model to classify emotions into predefined categories.
+
+Gender Verification
+
+Implemented a secondary model to distinguish between male and female voices.
+
+The system prompts users if a non-female voice is detected.
+
+GUI Development
+
+Designed an interactive interface using Tkinter for easy file uploads and voice recording.
+
+Integrated the trained model into the GUI for real-time predictions.
+
+Testing and Validation
+
+Evaluated model performance using precision, recall, and confusion matrix.
+
+Achieved an accuracy of over 75% in emotion classification.
+
+5. Skills and Competencies
+
+Speech Signal Processing
+
+Machine Learning and Deep Learning (LSTM)
+
+Python Programming (TensorFlow, Librosa, Tkinter)
+
+Data Preprocessing and Feature Engineering
+
+GUI Development
+
+6. Feedback and Evidence
+The project demonstrated the feasibility of using deep learning for emotion detection. The GUI provided a seamless experience for users, and the gender validation system effectively ensured the intended operation of the model. Screenshots of the model's performance and GUI interface are included as supporting evidence.
+
+7. Challenges and Solutions
+
+Challenge: Obtaining a balanced dataset with sufficient female voice samples.
+
+Solution: Used augmentation techniques such as noise addition and pitch shifting.
+
+Challenge: Distinguishing similar emotions like neutral and sad.
+
+Solution: Increased the depth of the LSTM model and optimized hyperparameters.
+
+Challenge: Ensuring real-time predictions with minimal delay.
+
+Solution: Optimized the preprocessing pipeline to improve efficiency.
+
+8. Outcomes and Impact
+
+Successfully developed and deployed an emotion detection system with a functional GUI.
+
+Improved understanding of deep learning applications in speech processing.
+
+The project has potential applications in customer sentiment analysis and mental health monitoring.
+
+9. Conclusion
+This internship provided hands-on experience in developing a practical machine learning application. The project enhanced technical skills in deep learning and GUI development while addressing real-world challenges in voice-based emotion detection. Future work includes extending the model to support a broader range of emotions and optimizing processing speed.
+
+10. References
+
+RAVDESS Dataset: https://zenodo.org/record/1188976
+
+Python Libraries: TensorFlow, Librosa, Tkinter, Pandas, NumPy
